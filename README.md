@@ -7,26 +7,29 @@
 Servidor medieval de Minecraft **Java 1.20.1 con Forge 47.4.28**: Ice and Fire, L_Ender's Cataclysm,
 castillos, catacumbas, Terralith, armaduras de caballero y una historia de 40 misiones para jugar en equipo.
 
-## Descargar
+## Descargar e instalar (Windows)
 
-Ve a **[Releases](../../releases/latest)** y baja uno de estos:
-
-| Archivo | Para quién |
-|---|---|
-| `Reino-de-Ceniza-Windows.zip` | **Windows: todo en uno.** Trae SKLauncher, Java 17, Forge, los mods, los shaders y un instalador. No hace falta bajar nada más. |
-| `reino-de-ceniza.mrpack` | Solo si usas Prism Launcher o la app de Modrinth (Windows, Linux o Mac): *Agregar instancia → Importar*. Es una lista de mods que el launcher descarga solo desde Modrinth. |
-
-## Instalar en Windows
-
-1. Descomprime `Reino-de-Ceniza-Windows.zip` y haz doble clic en **`instalar.bat`**.
+1. Baja **[Reino-de-Ceniza-Windows.zip](../../releases/latest/download/Reino-de-Ceniza-Windows.zip)** (7 KB).
+2. Descomprímelo y haz doble clic en **`instalar.bat`**.
    Si Windows avisa: *Más información → Ejecutar de todas formas*.
-2. **Si no tienes launcher**, el instalador instala **SKLauncher** (viene incluido). Ábrelo una vez,
-   entra con tu nombre de jugador, ciérralo y vuelve a hacer doble clic en `instalar.bat`.
-   Si ya tienes uno (SKLauncher, TLauncher, el oficial…), este paso se salta solo.
-3. En tu launcher elige el perfil **Reino de Ceniza** y dale a Jugar.
-4. Multijugador → Agregar servidor → la dirección que te pase Ariel.
+3. El instalador descarga todo de sus sitios oficiales (unos 260 MB) y comprueba la huella de cada archivo:
+   SKLauncher, Java 17, Forge 1.20.1-47.4.28, 31 mods y 2 shaders.
+   - **Si no tienes launcher**, instala SKLauncher. Ábrelo una vez, entra con tu nombre de jugador,
+     ciérralo y vuelve a hacer doble clic en `instalar.bat`.
+4. En tu launcher elige el perfil **Reino de Ceniza** y dale a Jugar.
+5. Multijugador → Agregar servidor → la dirección que te pase Ariel.
 
-El instalador pone los mods en `%APPDATA%\.minecraft\instancias\reino-de-ceniza`, así que no toca tus otros mods.
+Los mods quedan en `%APPDATA%\.minecraft\instancias\reino-de-ceniza`, así que no tocan tus otros mods.
+Para actualizar, baja el zip nuevo y vuelve a ejecutar `instalar.bat`: solo descarga lo que cambió.
+
+### De dónde sale cada cosa
+
+| Qué | Origen |
+|---|---|
+| Mods y shaders | [Modrinth](https://modrinth.com) (FTB Quests/Library/Teams: maven oficial de FTB) |
+| Forge | maven.minecraftforge.net |
+| Java 17 | Eclipse Temurin (Adoptium) |
+| SKLauncher | github.com/sklauncher/installer |
 
 ## En el juego
 
