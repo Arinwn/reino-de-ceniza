@@ -13,14 +13,16 @@ Ve a **[Releases](../../releases/latest)** y baja uno de estos:
 
 | Archivo | Para quién |
 |---|---|
-| `Reino-de-Ceniza-Windows.zip` | Windows con cualquier launcher (SKLauncher, TLauncher, el oficial…). Trae Java 17 y un instalador. |
-| `reino-de-ceniza.mrpack` | Prism Launcher o la app de Modrinth (Windows, Linux o Mac): *Agregar instancia → Importar*. |
+| `Reino-de-Ceniza-Windows.zip` | **Windows: todo en uno.** Trae SKLauncher, Java 17, Forge, los mods, los shaders y un instalador. No hace falta bajar nada más. |
+| `reino-de-ceniza.mrpack` | Solo si usas Prism Launcher o la app de Modrinth (Windows, Linux o Mac): *Agregar instancia → Importar*. Es una lista de mods que el launcher descarga solo desde Modrinth. |
 
 ## Instalar en Windows
 
-1. Abre tu launcher de Minecraft una vez y ciérralo.
-2. Descomprime `Reino-de-Ceniza-Windows.zip` y haz doble clic en **`instalar.bat`**.
+1. Descomprime `Reino-de-Ceniza-Windows.zip` y haz doble clic en **`instalar.bat`**.
    Si Windows avisa: *Más información → Ejecutar de todas formas*.
+2. **Si no tienes launcher**, el instalador instala **SKLauncher** (viene incluido). Ábrelo una vez,
+   entra con tu nombre de jugador, ciérralo y vuelve a hacer doble clic en `instalar.bat`.
+   Si ya tienes uno (SKLauncher, TLauncher, el oficial…), este paso se salta solo.
 3. En tu launcher elige el perfil **Reino de Ceniza** y dale a Jugar.
 4. Multijugador → Agregar servidor → la dirección que te pase Ariel.
 
